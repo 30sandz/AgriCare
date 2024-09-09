@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'dart:io';  // Only for Android/iOS
+import 'package:tflite/tflite.dart';
 
 void main() {
   runApp(MyApp());
