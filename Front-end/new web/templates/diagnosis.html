@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/diagnosis.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/common.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Plant Disease Diagnosis</h1>
+    <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+            <img src="{{ url_for('static', filename='images/user/' + image_filename) }}" alt="Uploaded Plant Image" class="img-fluid mb-3">
+            <h2>Diagnosis Result</h2>
+            <p><strong>Detected Disease:</strong> {{ disease_name }}</p>
+            <p><strong>Accuracy:</strong> {{ accuracy }}%</p>
+            <a href="{{ url_for('home') }}" class="btn btn-primary mt-3">Back to Home</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
