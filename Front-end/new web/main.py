@@ -6,6 +6,7 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing import image
 import numpy as np
 import json
+import sys
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'static/images/user'
