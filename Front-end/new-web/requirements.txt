@@ -9,4 +9,4 @@ click==8.1.7
 blinker==1.8.2
 json5 == 0.9.25
 gunicorn == 23.0.0
-tensorflow == 2.10.1
+tensorflow == 2.15.0
