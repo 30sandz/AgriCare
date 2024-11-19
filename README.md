@@ -7,6 +7,14 @@ AGRICARE AI
 
 3. It’s planned to work on more advanced NN with higher accuracy like YOLOv8 model in online
 
-4.Right it is in development phase
+ 4.Right it is in development phase
+
+To run this Code on your local system:
+  - To run the AI system : get code from the AI branch
+  - To run the user interface system : get code from the web branch
+  - And to download the entire version : get code from the latest master branch
+
+
+For collaboration, kindly send the invite.
 
 
